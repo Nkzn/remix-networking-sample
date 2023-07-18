@@ -14,10 +14,10 @@ export default function Index() {
       <h1>Welcome to Remix Networking Sample</h1>
       <ul>
         <li>
-          <Link to="/1998">1998</Link>（with native <code>&lt;form&gt;</code>）
+          <Link prefetch="intent" to="/1998">1998</Link>（with native <code>&lt;form&gt;</code>）
         </li>
         <li>
-          <Link to="/2023">2023</Link>（with remix <code>&lt;Form&gt;</code>）
+          <Link prefetch="render" to="/2023">2023</Link>（with remix <code>&lt;Form&gt;</code>）
         </li>
       </ul>
     </div>
